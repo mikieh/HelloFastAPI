@@ -1,0 +1,16 @@
+[run]
+source = app
+omit = app/test_*.py
+branch = True
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    pass
+    raise ImportError
+
+fail_under = 100
+show_missing = True 
