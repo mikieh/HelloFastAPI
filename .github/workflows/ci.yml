@@ -24,14 +24,22 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tests and generate coverage reports
-        run: pytest
+        id: tests
+        continue-on-error: true
+        run: |
+          pytest || echo "TESTS_FAILED=true" >> $GITHUB_ENV
 
       - name: Upload HTML coverage report
+        if: always()
         uses: actions/upload-pages-artifact@v3
         with:
           name: html-coverage-report
           path: htmlcov
 
+      - name: Fail job if tests or coverage failed
+        if: env.TESTS_FAILED == 'true'
+        run: exit 1
+      
       - name: Build Docker image
         run: docker build -t ghcr.io/${{ github.repository_owner }}/hellofastapi:latest .
 
