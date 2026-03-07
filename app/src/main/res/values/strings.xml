@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CallArchive</string>
+    <string name="app_name">CallFinder</string>
 
     <!-- Navigation -->
     <string name="nav_home">Home</string>
@@ -83,9 +83,9 @@
 
     <!-- Permissions -->
     <string name="permission_storage_title">Storage Access Required</string>
-    <string name="permission_storage_message">CallArchive needs access to your audio files to scan call recordings.</string>
+    <string name="permission_storage_message">CallFinder needs access to your audio files to scan call recordings.</string>
     <string name="permission_call_log_title">Call Log Access Required</string>
-    <string name="permission_call_log_message">CallArchive needs access to your call log to match recordings with contacts.</string>
+    <string name="permission_call_log_message">CallFinder needs access to your call log to match recordings with contacts.</string>
     <string name="grant_permission">Grant Permission</string>
 
     <!-- Notifications -->

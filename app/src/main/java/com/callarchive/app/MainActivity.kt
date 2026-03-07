@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.core.content.ContextCompat
 import androidx.navigation.compose.rememberNavController
 import com.callarchive.app.presentation.navigation.NavGraph
-import com.callarchive.app.presentation.theme.CallArchiveTheme
+import com.callarchive.app.presentation.theme.CallFinderTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
         requestPermissions()
 
         setContent {
-            CallArchiveTheme {
+            CallFinderTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

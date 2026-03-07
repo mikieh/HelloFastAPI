@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CallArchive"
+rootProject.name = "CallFinder"
 include(":app")

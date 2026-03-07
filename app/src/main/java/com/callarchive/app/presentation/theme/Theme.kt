@@ -66,7 +66,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun CallArchiveTheme(
+fun CallFinderTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit

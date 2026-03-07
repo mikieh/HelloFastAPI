@@ -2,7 +2,7 @@ package com.callarchive.app.di
 
 import android.content.Context
 import androidx.room.Room
-import com.callarchive.app.data.local.db.CallArchiveDatabase
+import com.callarchive.app.data.local.db.CallFinderDatabase
 import com.callarchive.app.data.local.db.CallRecordingDao
 import dagger.Module
 import dagger.Provides
@@ -17,16 +17,16 @@ object DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideDatabase(@ApplicationContext context: Context): CallArchiveDatabase {
+    fun provideDatabase(@ApplicationContext context: Context): CallFinderDatabase {
         return Room.databaseBuilder(
             context,
-            CallArchiveDatabase::class.java,
+            CallFinderDatabase::class.java,
             "call_archive.db"
         ).build()
     }
 
     @Provides
-    fun provideCallRecordingDao(database: CallArchiveDatabase): CallRecordingDao {
+    fun provideCallRecordingDao(database: CallFinderDatabase): CallRecordingDao {
         return database.callRecordingDao()
     }
 }

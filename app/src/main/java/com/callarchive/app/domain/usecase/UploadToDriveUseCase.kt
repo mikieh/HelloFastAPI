@@ -15,7 +15,7 @@ class UploadToDriveUseCase @Inject constructor(
         onProgress: (Float) -> Unit = {}
     ): Result<CallRecording> {
         return try {
-            driveRepository.ensureFolder("CallArchive")
+            driveRepository.ensureFolder("CallFinder")
             val driveFileId = driveRepository.uploadFile(
                 file = File(recording.filePath),
                 fileName = recording.fileName,

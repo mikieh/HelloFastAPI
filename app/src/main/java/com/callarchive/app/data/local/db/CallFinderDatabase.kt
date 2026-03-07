@@ -10,6 +10,6 @@ import androidx.room.TypeConverters
     exportSchema = true
 )
 @TypeConverters(Converters::class)
-abstract class CallArchiveDatabase : RoomDatabase() {
+abstract class CallFinderDatabase : RoomDatabase() {
     abstract fun callRecordingDao(): CallRecordingDao
 }

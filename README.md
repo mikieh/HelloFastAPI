@@ -1,11 +1,11 @@
-# CallArchive
+# CallFinder
 
 An Android app for managing, archiving, and searching call recordings with AI-powered transcription.
 
 ## Features
 
 - **Call Recording Scanner** - Scans device storage for call recordings, extracts metadata from filenames and Android CallLog
-- **Google Drive Upload** - Backs up recordings to a dedicated `CallArchive/` folder in Google Drive
+- **Google Drive Upload** - Backs up recordings to a dedicated `CallFinder/` folder in Google Drive
 - **AI Transcription** - Uses Gemini 2.5 Flash to transcribe calls, extract keywords, and generate summaries
 - **Full-Text Search** - Search across phone numbers, contacts, dates, keywords, and transcripts
 - **Audio Player** - Built-in player with ExoPlayer, displaying transcript and editable keywords
@@ -38,6 +38,6 @@ app/src/main/java/com/callarchive/app/
 ├── domain/        # Domain layer (models, interfaces, use cases)
 ├── presentation/  # UI layer (screens, ViewModels, theme)
 ├── worker/        # WorkManager sync components
-├── CallArchiveApp.kt
+├── CallFinderApp.kt
 └── MainActivity.kt
 ```

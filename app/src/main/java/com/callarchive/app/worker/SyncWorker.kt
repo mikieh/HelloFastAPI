@@ -45,7 +45,7 @@ class SyncWorker @AssistedInject constructor(
         createNotificationChannel()
 
         val notification = NotificationCompat.Builder(context, CHANNEL_ID)
-            .setContentTitle("CallArchive Sync")
+            .setContentTitle("CallFinder Sync")
             .setContentText(progress)
             .setSmallIcon(android.R.drawable.ic_popup_sync)
             .setOngoing(true)
@@ -69,7 +69,7 @@ class SyncWorker @AssistedInject constructor(
     }
 
     companion object {
-        const val WORK_NAME = "call_archive_sync"
+        const val WORK_NAME = "call_finder_sync"
         const val CHANNEL_ID = "sync_channel"
         const val NOTIFICATION_ID = 1001
     }

@@ -23,7 +23,7 @@ class DriveRepositoryImpl @Inject constructor(
         fileName: String,
         onProgress: (Float) -> Unit
     ): String {
-        val folderId = ensureFolder("CallArchive")
+        val folderId = ensureFolder("CallFinder")
         return retryWithBackoff {
             driveService.uploadFile(file, fileName, folderId, onProgress)
         }

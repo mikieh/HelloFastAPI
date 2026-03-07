@@ -42,7 +42,7 @@ class DriveService @Inject constructor(
             GsonFactory.getDefaultInstance(),
             credential
         )
-            .setApplicationName("CallArchive")
+            .setApplicationName("CallFinder")
             .build()
 
         driveService = service
