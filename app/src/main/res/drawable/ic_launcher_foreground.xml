@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Phone handset icon representing call recordings -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.55"
+        android:scaleY="0.55"
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Phone body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M38.4,27.6c1.2,-0.6 2.4,-1.8 2.4,-3.6l0,-6c0,-2.4 -1.8,-4.2 -4.2,-4.2l-7.2,0c-2.4,0 -4.2,1.8 -4.2,4.2l0,6c0,1.8 1.2,3 2.4,3.6l-1.2,52.8c0,2.4 1.8,4.2 4.2,4.2l4.8,0c2.4,0 4.2,-1.8 4.2,-4.2z" />
+        <!-- Magnifying glass circle -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M66,42a16,16 0,1 0,-32 0a16,16 0,1 0,32 0"
+            android:strokeWidth="4"
+            android:strokeColor="#FFFFFF" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M66,42a13,13 0,1 0,-26 0a13,13 0,1 0,26 0"
+            android:strokeWidth="3.5"
+            android:strokeColor="#1B6D3D" />
+        <!-- Magnifying glass handle -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M72,56l12,12"
+            android:strokeWidth="5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+        <!-- Sound waves in magnifying glass -->
+        <path
+            android:pathData="M49,36l0,12"
+            android:strokeWidth="2.5"
+            android:strokeColor="#1B6D3D"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M53,33l0,18"
+            android:strokeWidth="2.5"
+            android:strokeColor="#1B6D3D"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M57,38l0,8"
+            android:strokeWidth="2.5"
+            android:strokeColor="#1B6D3D"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
