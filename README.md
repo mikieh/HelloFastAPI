@@ -32,7 +32,7 @@ An Android app for managing, archiving, and searching call recordings with AI-po
 ## Project Structure
 
 ```
-app/src/main/java/com/callarchive/app/
+app/src/main/java/com/callfinder/app/
 ├── data/          # Data layer (DB, API, scanner, repositories)
 ├── di/            # Hilt dependency injection modules
 ├── domain/        # Domain layer (models, interfaces, use cases)
