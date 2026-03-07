@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.callarchive.app"
+    namespace = "com.callfinder.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.callarchive.app"
+        applicationId = "com.callfinder.app"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

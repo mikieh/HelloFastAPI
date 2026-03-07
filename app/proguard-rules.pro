@@ -3,7 +3,7 @@
 -keepattributes *Annotation*
 
 # Gson
--keep class com.callarchive.app.data.remote.gemini.** { *; }
+-keep class com.callfinder.app.data.remote.gemini.** { *; }
 
 # Retrofit
 -keepattributes RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations
